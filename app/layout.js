@@ -35,6 +35,25 @@ export const metadata = {
     "Vector Databases",
     "AI Automation",
     "Business AI Solutions",
+    "production-ready RAG systems",
+    "LangChain agent development",
+    "Meta AI advertising optimization",
+    "enterprise AI implementations",
+    "LangGraph multi-agent workflows",
+    "AI system reliability",
+    "RAG system implementation",
+    "AI business integration",
+    "production AI deployment",
+    "AI consultant expert",
+    "custom AI solutions",
+    "AI system architecture",
+    "enterprise AI consultant",
+    "AI automation specialist",
+    "RAG implementation expert",
+    "LangChain development services",
+    "AI project delivery",
+    "business AI transformation",
+    "AI solution architect",
   ],
   authors: [
     { name: "Keyur Gondaliya", url: "https://gk-solutions.vercel.app" },
@@ -232,6 +251,37 @@ export default function RootLayout({ children }) {
     ],
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://gk-solutions.vercel.app",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "AI Expertise",
+        item: "https://gk-solutions.vercel.app#ai-expertise",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Projects",
+        item: "https://gk-solutions.vercel.app#projects",
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: "FAQ",
+        item: "https://gk-solutions.vercel.app#faq",
+      },
+    ],
+  };
+
   return (
     <html lang="en">
       <head>
@@ -252,6 +302,12 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumbSchema),
           }}
         />
 
@@ -296,7 +352,7 @@ export default function RootLayout({ children }) {
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href="/manifest.json" />
 
         {/* RSS Feed */}
         <link
