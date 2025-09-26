@@ -324,7 +324,10 @@ export default function RootLayout({ children }) {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-
+        <meta
+          name="google-site-verification"
+          content="O5igg9HQGWljaCRtHF50WZHR7Tx2FMQTYYHj3ej-I3A"
+        />
         {/* Preconnect to External Domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
