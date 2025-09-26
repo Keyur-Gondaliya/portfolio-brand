@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Keyur Gondaliya",
+  "jobTitle": "AI Engineer & Full-Stack Developer",
+  "description": "Expert in production-ready AI systems, RAG implementations, LangChain/LangGraph agents, and enterprise AI solutions",
+  "url": "https://gk-solutions.vercel.app",
+  "image": "https://gk-solutions.vercel.app/og-image.png",
+  "sameAs": [
+    "https://github.com/Keyur-Gondaliya",
+    "https://gkcodes.wordpress.com"
+  ],
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "RAG Systems",
+    "LangChain",
+    "LangGraph",
+    "AI Agents",
+    "Production AI Systems",
+    "Meta AI Integration",
+    "Full Stack Development",
+    "Enterprise AI Solutions"
+  ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "AI Engineer",
+    "occupationLocation": "Remote/Global",
+    "skills": [
+      "AI Development",
+      "RAG Systems",
+      "LangChain",
+      "LangGraph",
+      "Production AI Deployment",
+      "Meta AI Integration"
+    ]
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Independent AI Consultant"
+  }
+}
