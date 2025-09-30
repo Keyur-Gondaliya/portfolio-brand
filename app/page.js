@@ -737,6 +737,16 @@ export default function Home() {
             KEYUR GONDALIYA &copy; 2025 | AI ENGINEER & FULL-STACK DEVELOPER
           </p>
           <p>Building the future, one system at a time</p>
+          <p style={{ marginTop: "10px", fontSize: "12px" }}>
+            <a
+              href="https://keyur-gondaliya.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#666", textDecoration: "underline" }}
+            >
+              Visit My Portfolio
+            </a>
+          </p>
         </footer>
       </div>
     </>
